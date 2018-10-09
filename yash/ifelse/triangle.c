@@ -11,7 +11,7 @@ int main()
   printf("Triangle is valid\n");
 
   else
-  printf("Triangle is not valid");
+  printf("Triangle is not valid\n");
  }
 
  if(t2>t1 && t2>t3)
@@ -20,7 +20,7 @@ int main()
   printf("Triangle is valid\n");
 
   else
-  printf("Triangle is not valid");
+  printf("Triangle is not valid\n");
  }
 
  if(t3>t2 && t3>t1)
@@ -29,7 +29,7 @@ int main()
   printf("Triangle is valid\n");
 
   else
-  printf("Triangle is not valid");
+  printf("Triangle is not valid\n");
  }
 
  return 0;
