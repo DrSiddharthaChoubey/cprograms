@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+int choice;
+ while(1)
+{
+  printf("\tMENU\n");
+  printf("\n\t1. factorial\n");
+  printf("\n\t 2. prime\n");
+  printf("\n\t3. odd/even no\n");
+  printf("\n\t4. exit");
+  printf("\n\ enter your choice");
+  scanf("%d",&choice);
+  switch(choice)
+{
+  case1:printf("\nfactorial\n");
+        break; 
+  case2:printf("\nprime\n");
+        break;
+  case3:printf("\nodd/even no\n");
+        break;
+  case4:exit(0);
+default: 
+   printf("\n invalid option\n");
+}
+}
+return 0;
+}
