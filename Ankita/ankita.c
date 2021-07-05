@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c;
+int a,b;
 printf("Enter the value of a and b");
 scanf("%d %d",&a,&b);
-c=a;
-a=b;
-b=c;
+ a=a+b;
+ b=a-b;
+ a=a-b; 
+  
 printf("After swaping a=%d,b=%d",a,b);
 return 0;
 }
